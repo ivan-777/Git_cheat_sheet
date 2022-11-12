@@ -91,7 +91,7 @@ git branch -D new_branch      # принудительное удаление в
 git add .                        # добавляем все в индекс
 git commit --amend               # закоммитить изменения ( amend откатит коммит через reset и выполнит новый коммит с новыми данными)
 # если изменяемый коммит уже был отправлен, то
-git push new_branch --force
+git push origin new_branch --force  
 # или
 git push -f                      # принудительно перезаписываем в удаленном репозитории
 ```
